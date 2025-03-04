@@ -177,7 +177,7 @@ function updatePrice(elem, q = -1) {
 
 function createContainerContent() {
 	
-	$("#furniture-container").html('<div class="row custom-row2 heading"><div class="col-md-3 col-3">ParÃ§alar</div><div class="col-md-2 col-2 text-center">ÃœrÃ¼n FiyatÄ±</div><div class="col-md-3 col-3 text-center">Adet</div><div class="col-md-2 text-center col-2">Toplam Fiyat</div><div class="col-2"></div>');
+	$("#furniture-container").html('<div class="row custom-row2 heading"><div class="col-md-3 col-3">Parçalar</div><div class="col-md-2 col-2 text-center">Ürün Fiyatı</div><div class="col-md-3 col-3 text-center">Adet</div><div class="col-md-2 text-center col-2">Toplam Fiyat</div><div class="col-2"></div>');
 	
 	$(".custom-product").each(function(index) {
 		
@@ -193,7 +193,7 @@ function createContainerContent() {
 			  '<span class="input-group-btn minus d-none">'+
 				  '<span class="remove">-</span>'+
 			  '</span>'+
-			  '<span class="orange">TakÄ±ma ekle</span><input style="height: 35px;" type="text" class="form-control input-number d-none" value="1" min="1">'+
+			  '<span class="orange">Takıma ekle</span><input style="height: 35px;" type="text" class="form-control input-number d-none" value="1" min="1">'+
 			  '<span class="input-group-btn plus d-none">'+
 				  '<span class="remove">+</span>'+
 			  '</span>'+
@@ -205,7 +205,7 @@ function createContainerContent() {
 			  '<span class="input-group-btn minus">'+
 				  '<span class="remove">-</span>'+
 			  '</span>'+
-			  '<span class="d-none orange">TakÄ±ma ekle</span><input style="height: 35px;" type="text" class="form-control input-number" value="' + $(this).find('.custom-quantity').text() + '" min="1">'+
+			  '<span class="d-none orange">Takıma ekle</span><input style="height: 35px;" type="text" class="form-control input-number" value="' + $(this).find('.custom-quantity').text() + '" min="1">'+
 			  '<span class="input-group-btn plus">'+
 				  '<span class="remove">+</span>'+
 			  '</span>'+
